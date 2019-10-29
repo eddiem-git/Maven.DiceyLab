@@ -9,7 +9,7 @@ public class Die {
     public Die(Integer numberOfFaces) {
         this.numberOfFaces = numberOfFaces;
     }
-    public Dice(){
+    public Die(){
         this(6);
     }
 
