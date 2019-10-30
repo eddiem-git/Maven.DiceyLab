@@ -4,15 +4,16 @@ import com.github.zipcodewilmington.Die;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class ConstructorTest {
+public class NullaryConstructorTest {
+
     @Test
-    public void test1() {
+    public void test1(){
         // given
         Integer expectedFaceValues = null;
         Integer expectedNumberOfFaces = 6;
 
         // when
-        Die die = new Die(expectedNumberOfFaces);
+        Die die = new Die();
         Integer actualFaceValues = die.getCurrentFacesValue();
         Integer actualNumberOfFaces = die.getNumberOfFaces();
 
